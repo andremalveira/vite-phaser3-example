@@ -6,6 +6,7 @@
     "name": "André Malveira",
     "url": "https://github.com/andremalveira"
   },
+  "repository": "https://github.com/andremalveira/vite-phaser3-example",
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",

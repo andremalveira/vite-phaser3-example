@@ -12,6 +12,6 @@ export default class Preload extends Phaser.Scene {
   }
 
   create() {
-    
+      this.add.text(this.game.config.width as number / 2.1, this.game.config.height as number / 2, 'Preload Scene ✅');
   }
 }
