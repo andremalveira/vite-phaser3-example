@@ -1,11 +1,28 @@
-# System and IDE files
-Thumbs.db
-.DS_Store
-.vscode
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-
-# Vendors
-node_modules/
-
-# Build
+node_modules
 dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
