@@ -1,6 +1,6 @@
 {
   "name": "vite-phaser3-example",
-  "version": "0.1.0",
+  "version": "0.1.2-phaser3.60",
   "description": "Template example for creating phaser 3 game using vite and typescript",
   "author": {
     "name": "André Malveira",
