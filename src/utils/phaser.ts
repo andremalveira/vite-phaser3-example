@@ -1,5 +1,5 @@
 import { Scene } from "phaser";
-import { HexColor } from "../types/global";
+import { HexColor } from "../types/utils";
 
 const get = (scene: Scene) => {
     const center = () => {

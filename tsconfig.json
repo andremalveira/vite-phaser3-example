@@ -13,7 +13,12 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "typeRoots": [
+      "src/types",
+      "node_modules/@types",
+      "node_module/phaser/types"
+    ]
   },
   "include": ["./src/**/*", "src/types"]
 }
